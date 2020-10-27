@@ -5,11 +5,11 @@
 } */
 /* Suddivisione pagina */
 body{
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
 }
-header#ms_navbar{
+header{
   width: 100%;
-  min-height: 10vh;
+  /* min-height: 10vh; */
   background: #2c3e50;
   color: white;
 }
@@ -56,8 +56,29 @@ footer #ms_copyright{
 /* /Suddivisione pagina */
 /* Navbar */
 /* logo */
-#ms_navbar .logo h3 {
-  font-size: 30px;
-  font-weight: 500;
+#ms_navbar{
+  height: 10vh;
+  background: #2c3e50;
+  border-bottom: none;
+}
+#ms_navbar .ms_logo {
+  color: white;
+  padding: 0;
+  text-decoration: none;
+}
+#ms_navbar .ms_logo h4 {
+  font-size: 25px;
+  font-weight: 700;
   text-transform: uppercase;
+}
+/* menu */
+
+#ms_navbar .ms_menu{
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+#ms_navbar .ms_menu a{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
 }
