@@ -1,0 +1,29 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+#ms_navbar{
+  width: 100%;
+  min-height: 10vh;
+}
+#ms_heroimg{
+  width: 100%;
+  min-height: 90vh;
+}
+#ms_portfolio{
+  width: 100%;
+  min-height: 90vh;
+}
+#ms_about{
+  width: 100%;
+  min-height: 50vh;
+}
+#ms_contact{
+  width: 100%;
+  min-height: 90vh;
+}
+#ms_moreinfo{
+  width: 100%;
+  min-height: 50vh;
+}
