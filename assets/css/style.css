@@ -103,3 +103,10 @@ footer #ms_copyright{
   width: 100%;
   border-radius: 10px;
 }
+/* /portfolio */
+
+/* about */
+#ms_about{
+  text-align: center;
+  padding-bottom: 50px;
+}
