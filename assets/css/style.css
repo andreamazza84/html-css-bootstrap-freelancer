@@ -90,3 +90,16 @@ footer #ms_copyright{
   text-align: center;
   padding-top: 50px;
 }
+/* /hero image */
+
+/* portfolio */
+#ms_portfolio{
+  text-align: center;
+}
+#ms_portfolio .row{
+  padding: 30px;
+}
+#ms_portfolio .row img{
+  width: 100%;
+  border-radius: 10px;
+}
