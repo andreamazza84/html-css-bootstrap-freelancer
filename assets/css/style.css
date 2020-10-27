@@ -3,27 +3,61 @@
   padding: 0;
   box-sizing: border-box;
 } */
-#ms_navbar{
+/* Suddivisione pagina */
+body{
+  font-family: Open Sans;
+}
+header#ms_navbar{
   width: 100%;
   min-height: 10vh;
+  background: #2c3e50;
+  color: white;
 }
-#ms_heroimg{
+main{
+  width: 100%;
+}
+main #ms_heroimg{
   width: 100%;
   min-height: 90vh;
+  background: #1abc9c;
+  color: white;
 }
-#ms_portfolio{
+main #ms_portfolio{
   width: 100%;
   min-height: 90vh;
+  background: white;
+  color: #2c3e50;
 }
-#ms_about{
+main #ms_about{
   width: 100%;
   min-height: 50vh;
+  background: #1abc9c;
+  color: white;
 }
-#ms_contact{
+main #ms_contact{
   width: 100%;
   min-height: 90vh;
+  background: white;
+  color: #2c3e50;
 }
-#ms_moreinfo{
+footer{
   width: 100%;
   min-height: 50vh;
+  background: #3a546d;
+  color: white;
+}
+footer #ms_location{
+  width: 100%;
+  min-height: 30vh;
+}
+footer #ms_copyright{
+  min-height: 20vh;
+}
+/* /Suddivisione pagina */
+/* Navbar */
+/* logo */
+#ms_navbar .logo h3 {
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
 }
